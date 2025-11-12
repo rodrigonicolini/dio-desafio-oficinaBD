@@ -1,0 +1,7 @@
+SELECT 
+    os.id_os,
+    SUM(iserv.valor_total + ipec.valor_total) AS valor_total_os
+FROM Ordem_Servico os
+LEFT JOIN Item_Servico iserv ON os.id_os = iserv.id_os
+LEFT JOIN Item_Peca ipec ON os.id_os = ipec.id_os
+GROUP BY os.id_os;
