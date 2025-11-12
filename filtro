@@ -1,0 +1,2 @@
+SELECT * FROM Veiculo
+WHERE marca = 'Toyota' AND ano >= 2020;
