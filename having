@@ -1,0 +1,5 @@
+SELECT c.nome, COUNT(v.id_veiculo) AS qtd_veiculos
+FROM Cliente c
+JOIN Veiculo v ON c.id_cliente = v.id_cliente
+GROUP BY c.nome
+HAVING COUNT(v.id_veiculo) > 2;
