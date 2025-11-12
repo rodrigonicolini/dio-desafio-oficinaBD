@@ -105,36 +105,4 @@ HAVING COUNT(v.id_veiculo) > 2;
 
 ---
 
-## 🚀 Como Utilizar
-
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/oficina-mecanica-bd.git
-   ```
-2. Acesse o diretório:
-   ```bash
-   cd oficina-mecanica-bd
-   ```
-3. Execute o script SQL no seu banco:
-   ```bash
-   mysql -u root -p < modelo_logico.sql
-   ```
-4. Teste as consultas:
-   ```bash
-   mysql -u root -p < consultas_exemplo.sql
-   ```
-
----
-
-## 📄 Licença
-
-Este projeto é de uso **educacional** e está sob a licença **MIT**.  
-Sinta-se à vontade para copiar, modificar e usar para fins acadêmicos.
-
----
-
-## ✍️ Autor
-
-**Rodrigo**  
-📧 Contato: *[seu-email@exemplo.com]*  
-📍 Projeto acadêmico de modelagem de banco de dados.
+📍 Projeto teste de modelagem de banco de dados.
